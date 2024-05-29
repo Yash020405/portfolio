@@ -1,0 +1,57 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34; /* Adjust background color as needed */
+    text-align: center;
+  }
+  
+  .Name {
+    color: white;
+    font-size: 3em; /* Increased font size */
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Typing {
+    color: white;
+    font-size: 2em; /* Increased font size */
+    font-weight: 500;
+    margin: 20px 0; /* Increased gap between lines */
+    padding: 0;
+  }
+  
+  .typing-effect {
+    display: inline;
+  }
+  
+  .caret {
+    display: inline-block;
+    width: 2px;
+    background-color: white;
+    animation: blink 0.7s step-end infinite;
+  }
+  
+  @keyframes blink {
+    from, to { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  .social-icons {
+    margin-top: 20px; /* Gap between typing part and icons */
+  }
+  
+  .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5em;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #61dafb; /* Adjust hover color */
+  }
+  
