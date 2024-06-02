@@ -1,30 +1,29 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import NavBar from './Components/Navbar/NavBar';
-import Section from './Components/Section';
-import About from './Components/About';
-import ProgressBar from './Components/ProgressBar';
-import Projects from './Components/Projects';
-import Contact from './Components/Contact';
-import Skills from './Components/Skills';
-import Education from './Components/Education';
+import AboutPage from './Pages/AboutPage';
+import ProjectsPage from './Pages/ProjectsPage';
+import ContactPage from './Pages/ContactPage';
+import SkillsPage from './Pages/SkillsPage';
+import EducationPage from './Pages/EducationPage';
+import HomePage from './Pages/HomePage';
+import NavBar from './Components/NavBar';
+
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <ProgressBar />
         <header className="App-header">
           <NavBar />
         </header>
         <Routes>
-          <Route path="/" element={<Section />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/education" element={<Education />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/skills" element={<SkillsPage />} />
+          <Route path="/education" element={<EducationPage />} />
         </Routes>
       </div>
     </Router>
@@ -32,6 +31,5 @@ function App() {
 }
 
 export default App;
-
 
 

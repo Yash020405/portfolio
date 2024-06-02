@@ -6,7 +6,7 @@ import { SiSpring } from 'react-icons/si';
 function Skills() {
   return (
     <div className="skills-container">
-      <h2>Skills</h2>
+      <h2 className='skills-heading'>Skills</h2>
       <div className="skills-list">
         <div className="skill-item"><FaReact className="skill-icon" />React.js</div>
         <div className="skill-item"><FaJava className="skill-icon" />Java</div>

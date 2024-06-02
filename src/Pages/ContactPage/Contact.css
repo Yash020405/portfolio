@@ -1,0 +1,19 @@
+#contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact-icons {
+    margin-top: 20px;
+  }
+  
+  .contact-icons a {
+    color: #000;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .contact-icons a:hover {
+    color: #007bff;
+  }
+  
