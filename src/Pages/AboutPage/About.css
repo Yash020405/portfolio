@@ -10,7 +10,6 @@
 
 .about-heading {
   font-size: 3rem;
-  margin-bottom: 20px;
 }
 
 .about-content {
@@ -22,14 +21,14 @@
 }
 
 .about-paragraph {
-  background-color: #3e3d3d;
-  opacity: 0.8;
+  background-color: rgba(62, 61, 61, 0.464); ;
   font-size: 1.5rem;
-  padding: 20px;
+  padding: 50px;
   margin-right: 100px;
   border-radius: 20px;
   max-width: 1100px;
-  margin-top: 100px;
+  max-height: 500px;
+  margin-top: 70px;
   animation: slideInLeft 1s ease;
 }
 
