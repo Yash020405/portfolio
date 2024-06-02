@@ -4,7 +4,12 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-
+.navbar-image{
+    max-width:400px;
+    max-height: 50px;
+    margin-right: 450px;
+    margin-top: 0;
+}
 .navbar-container {
     background-color: #20232a;
     padding: 10px 20px;
@@ -25,14 +30,15 @@ body {
 }
 
 .nav-item {
-    margin: 0 20px; /* Decreased space between tabs */
+    margin: 0 20px;
 }
 
 .nav-item a {
+    margin-top: 5px;
     text-decoration: none;
     color: #fff;
-    padding: 5px 10px; /* Adjusted padding */
-    font-size: 1em; /* Adjusted font size */
+    padding: 5px 10px;
+    font-size: 1em;
     position: relative;
     transition: color 0.3s ease;
     font-family: 'Roboto', sans-serif;

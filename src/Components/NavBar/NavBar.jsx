@@ -2,10 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaHome, FaInfoCircle, FaProjectDiagram, FaTools, FaGraduationCap, FaEnvelope } from 'react-icons/fa';
 import './NavBar.css';
+import logo from '../../Assets/Sign.png';
 
 function NavBar() {
     return (
         <nav className="navbar-container">
+            <Link to="/">
+                <img src={logo} alt="Profile" className="navbar-image" />
+            </Link>
             <ul className="navbar">
                 <li className="nav-item">
                     <Link to="/">

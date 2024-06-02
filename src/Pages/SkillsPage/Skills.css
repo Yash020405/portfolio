@@ -36,7 +36,11 @@
   
   .skill-icon {
     font-size: 5em;
+    font-weight: 500;
     margin-right: 30px;
+  }
+  .skill-text {
+    font-size: 1.4em;
   }
   
   .skill-name {
