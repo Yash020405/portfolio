@@ -1,27 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
 #home {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #282c34; /* Adjust background color as needed */
+    background-color: #282c34;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .Name {
     color: white;
-    font-size: 3em; /* Increased font size */
+    font-size: 3em;
     font-weight: 700;
-    margin: 0;
+    margin: 10px 0;
     padding: 0;
   }
   
   .Typing {
     color: white;
-    font-size: 2em; /* Increased font size */
+    font-size: 2em;
     font-weight: 500;
-    margin: 20px 0; /* Increased gap between lines */
+    margin: 20px 0;
     padding: 0;
+  }
+  
+  .im-text {
+    color: #ffa500; /* Changed color of "I'm" */
+    font-weight: bold; /* Bold "I'm" */
+  }
+  
+  .profile-image {
+    width: 200px; /* Increased image size */
+    height: 200px; /* Increased image size */
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover; /* Crop the image */
   }
   
   .typing-effect {
@@ -31,7 +47,6 @@
   .caret {
     display: inline-block;
     width: 2px;
-    background-color: white;
     animation: blink 0.7s step-end infinite;
   }
   
@@ -41,17 +56,16 @@
   }
   
   .social-icons {
-    margin-top: 20px; /* Gap between typing part and icons */
+    margin-top: 20px;
   }
   
   .social-icons a {
     color: white;
     margin: 0 10px;
-    font-size: 1.5em;
+    font-size: 2em;
     transition: color 0.3s;
   }
   
   .social-icons a:hover {
-    color: #61dafb; /* Adjust hover color */
+    color: #61dafb;
   }
-  

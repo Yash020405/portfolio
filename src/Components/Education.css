@@ -1,0 +1,70 @@
+.education-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    color: #333; /* Dark gray */
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #2d4059; /* Dark blue */
+  }
+  
+  main {
+    margin-top: 40px;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .event {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+    animation: fadeInUp 0.5s ease;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .event-icon {
+    font-size: 2em;
+    margin-right: 20px;
+    color: #ea5455; /* Red */
+  }
+  
+  .event-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-details h2 {
+    margin-top: 0;
+    color: #333; /* Dark gray */
+  }
+  
+  .event-details p {
+    margin: 5px 0;
+  }
+  
+  .current-school .event-icon {
+    color: #3fc1c9; /* Teal */
+  }
+  

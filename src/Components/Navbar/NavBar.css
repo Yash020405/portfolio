@@ -1,28 +1,62 @@
-.navbar{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.navbar-container {
+    background-color: #20232a;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.navbar {
     list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
-.nav-item{
-    margin : 0 15px;
-
+.nav-item {
+    margin: 0 20px; /* Decreased space between tabs */
 }
 
-.nav-item a{
+.nav-item a {
     text-decoration: none;
-    color: white;
-    padding: 5px 0;
+    color: #fff;
+    padding: 5px 10px; /* Adjusted padding */
+    font-size: 1em; /* Adjusted font size */
+    position: relative;
+    transition: color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
 }
 
-.nav-item a::after{
-    content : '';
+.icon {
+    margin-right: 8px;
+}
+
+.nav-item a::after {
+    content: '';
     height: 2px;
     width: 0%;
     display: block;
-    background: white;
+    background: #61dafb;
     transition: width 0.3s ease;
 }
 
-.nav-item a:hover::after{
+.nav-item a:hover::after {
     width: 100%;
+}
+
+.nav-item a:hover {
+    color: #61dafb;
 }
