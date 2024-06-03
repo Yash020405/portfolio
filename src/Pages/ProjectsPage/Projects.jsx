@@ -22,7 +22,7 @@ const projectsData = [
     title: 'Portfolio',
     description: 'Curabitur lacinia mi at purus condimentum, at efficitur dolor vehicula.',
     imageUrl: 'https://via.placeholder.com/150',
-    githubUrl: 'https://github.com/project3',
+    githubUrl: 'https://github.com/Yash020405/portfolio',
   },
   {
     id: 4,
@@ -36,14 +36,14 @@ const projectsData = [
     title: 'Music Player',
     description: 'Sed ac sapien sed velit sollicitudin luctus. Nulla facilisi.',
     imageUrl: 'https://via.placeholder.com/150',
-    githubUrl: 'https://github.com/project5',
+    githubUrl: 'https://github.com/Yash020405/Music_Player',
   },
   {
     id: 6,
     title: 'Quiz App',
     description: 'Suspendisse potenti. Donec mattis, nisl at scelerisque aliquet, nisi libero viverra quam.',
     imageUrl: 'https://via.placeholder.com/150',
-    githubUrl: 'https://github.com/project6',
+    githubUrl: 'https://github.com/Yash020405/Quiz',
   },
   {
     id: 7,
@@ -64,7 +64,7 @@ const projectsData = [
     title: 'Service Website',
     description: 'Suspendisse potenti. Donec mattis, nisl at scelerisque aliquet, nisi libero viverra quam.',
     imageUrl: 'https://via.placeholder.com/150',
-    githubUrl: 'https://github.com/project6',
+    githubUrl: 'https://github.com/Yash020405/Web_Dev_1',
   },
 ];
 
