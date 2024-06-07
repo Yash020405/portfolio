@@ -1,72 +1,172 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 #home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #282c34;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.Name {
+  color: white;
+  font-size: 4em;
+  font-weight: 500;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.Typing {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 250;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.im-text {
+  color: #ffa500;
+  font-weight: bold;
+}
+
+.profile-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.typing-effect {
+  display: inline;
+}
+
+.caret {
+  display: inline-block;
+  width: 2px;
+  animation: blink 0.7s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.social-icons {
+  margin-top: 20px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 2em;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #61dafb;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
   .Name {
-    color: white;
-    font-size: 4em;
-    font-weight: 500;
-    margin: 10px 0;
-    padding: 0;
+    font-size: 3.5em;
   }
-  
+
   .Typing {
-    color: white;
-    font-size: 2.5em;
-    font-weight: 250;
-    margin: 20px 0;
-    padding: 0;
+    font-size: 2.2em;
   }
-  
-  .im-text {
-    color: #ffa500; 
-    font-weight: bold;
-  }
-  
+
   .profile-image {
-    width: 300px; 
-    height: 300px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    object-fit: cover;
+    width: 250px;
+    height: 250px;
   }
-  
-  .typing-effect {
-    display: inline;
-  }
-  
-  .caret {
-    display: inline-block;
-    width: 2px;
-    animation: blink 0.7s step-end infinite;
-  }
-  
-  @keyframes blink {
-    from, to { opacity: 0; }
-    50% { opacity: 1; }
-  }
-  
-  .social-icons {
-    margin-top: 20px;
-    gap: 10px;
-  }
-  
+
   .social-icons a {
-    color: white;
-    margin: 0 10px;
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 992px) {
+  .Name {
+    font-size: 3em;
+  }
+
+  .Typing {
     font-size: 2em;
-    transition: color 0.3s;
   }
-  
-  .social-icons a:hover {
-    color: #61dafb;
+
+  .profile-image {
+    width: 200px;
+    height: 200px;
   }
+
+  .social-icons a {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .Name {
+    font-size: 2.5em;
+  }
+
+  .Typing {
+    font-size: 1.8em;
+  }
+
+  .profile-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  .social-icons a {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 576px) {
+  .Name {
+    font-size: 2em;
+  }
+
+  .Typing {
+    font-size: 1.5em;
+  }
+
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .social-icons a {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 375px) {
+  .Name {
+    font-size: 1.8em;
+  }
+
+  .Typing {
+    font-size: 1.3em;
+  }
+
+  .profile-image {
+    width: 130px;
+    height: 130px;
+  }
+
+  .social-icons a {
+    font-size: 1em;
+  }
+}
