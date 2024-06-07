@@ -70,3 +70,127 @@
   font-size: 1.2em;
   opacity: 0.8;
 }
+
+@media (max-width: 1200px) {
+  .education-heading {
+    font-size: 2.5em;
+  }
+
+  .event-title {
+    font-size: 1.8em;
+  }
+
+  .event-subtitle {
+    font-size: 1.3em;
+  }
+
+  .event-description {
+    font-size: 1.1em;
+  }
+
+  .school-icon, .university-icon {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 992px) {
+  .education-heading {
+    font-size: 2.2em;
+  }
+
+  .event-title {
+    font-size: 1.6em;
+  }
+
+  .event-subtitle {
+    font-size: 1.2em;
+  }
+
+  .event-description {
+    font-size: 1em;
+  }
+
+  .school-icon, .university-icon {
+    font-size: 2.2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .education-heading {
+    font-size: 2em;
+  }
+
+  .event-title {
+    font-size: 1.5em;
+  }
+
+  .event-subtitle {
+    font-size: 1.1em;
+  }
+
+  .event-description {
+    font-size: 0.9em;
+  }
+
+  .school-icon, .university-icon {
+    font-size: 2em;
+  }
+
+  .event {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .education-heading {
+    font-size: 1.8em;
+    margin-top: 30px;
+  }
+
+  .event-title {
+    font-size: 1.3em;
+  }
+
+  .event-subtitle {
+    font-size: 1em;
+  }
+
+  .event-description {
+    font-size: 0.8em;
+  }
+
+  .school-icon, .university-icon {
+    font-size: 1.8em;
+  }
+
+  .event {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .education-heading {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+
+  .event-title {
+    font-size: 1.2em;
+  }
+
+  .event-subtitle {
+    font-size: 0.9em;
+  }
+
+  .event-description {
+    font-size: 0.7em;
+  }
+
+  .school-icon, .university-icon {
+    font-size: 1.5em;
+  }
+
+  .event {
+    padding: 10px;
+  }
+}

@@ -21,9 +21,9 @@ function Home() {
         /></b>
       </span>
       <div className='social-icons'>
-        <a href="https://www.instagram.com/yash_agarwal0204?igsh=OXNzZ3V4bjlpeTRo" target="_blank" rel="noopener noreferrer"><FaInstagram size={37} /></a>
-        <a href="https://youtube.com/@yashagarwal0204?si=JcKnskpmj47FupvZ" target="_blank" rel="noopener noreferrer"><FaYoutube size={37} /></a>
-        <a href="https://www.linkedin.com/in/yash-agarwal-94a9a12a2/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={37} /></a>
+        <a href="https://www.instagram.com/yash_agarwal0204?igsh=OXNzZ3V4bjlpeTRo" target="_blank" rel="noopener noreferrer"><FaInstagram size={40} /></a>
+        <a href="https://youtube.com/@yashagarwal0204?si=JcKnskpmj47FupvZ" target="_blank" rel="noopener noreferrer"><FaYoutube size={40} /></a>
+        <a href="https://www.linkedin.com/in/yash-agarwal-94a9a12a2/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={40} /></a>
         <a href="https://github.com/Yash020405" target="_blank" rel="noopener noreferrer"><FaGithub size={40} /></a>
       </div>
     </section>
