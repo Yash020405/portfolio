@@ -2,7 +2,10 @@
   text-align: center;
   background-color: #282c34;
   min-height: 100vh;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
+
 .App-header {
   background-color: #282c34;
   display: flex;
@@ -11,8 +14,35 @@
   justify-content: space-between;
   font-size: calc(5px + 2vmin);
   color: white;
+  padding: 10px;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .App-header {
+    font-size: calc(4px + 2vmin);
+  }
+}
+
+@media (max-width: 992px) {
+  .App-header {
+    font-size: calc(3px + 2vmin);
+  }
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    flex-direction: column;
+    font-size: calc(2px + 2vmin);
+  }
+}
+
+@media (max-width: 576px) {
+  .App-header {
+    font-size: calc(1px + 2vmin);
+  }
 }
